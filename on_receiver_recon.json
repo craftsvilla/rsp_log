@@ -1,0 +1,42 @@
+{
+    "context": {
+        "domain": "nic2004:NTS10",
+        "country": "IND",
+        "city": "*",
+        "action": "on_receiver_recon",
+        "core_version": "1.0.0",
+        "bap_id": "rsp.plotch.ai",
+        "bap_uri": "https://rsp.plotch.ai/rsp",
+        "bpp_id": "ondc.ideamasters.store",
+        "bpp_uri": "https://ondc.ideamasters.store/ondc/v1/166476/bpp",
+        "transaction_id": "2caec7ba-c913-49cb-bb70-21d8cb267880",
+        "message_id": "43d3e713-3331-4dc0-9550-1a985a863198",
+        "timestamp": "2023-07-28T18:01:06.182Z",
+        "ttl": "P2D"
+    },
+    "message": {
+        "orderbook": {
+            "orders": [
+                {
+                    "id": "20ef7305-3216-478c-a7f6-426b26a7fb58",
+                    "invoice_no": "529465",
+                    "collector_app_id": "www.craftsvilla.com",
+                    "receiver_app_id": "ondc.ideamasters.store",
+                    "order_recon_status": "01",
+                    "transaction_id": "822cdb5c-045f-49ee-b3cd-6de39714878f",
+                    "settlement_id": "ed0ba6bf-db50-40aa-b559-5703735c96eb",
+                    "settlement_reference_no": "202307280037742C",
+                    "counterparty_recon_status": "01",
+                    "counterparty_diff_amount": {
+                        "currency": "INR",
+                        "value": "0"
+                    },
+                    "message": {
+                        "name": "Seller Payload",
+                        "code": ""
+                    }
+                }
+            ]
+        }
+    }
+}

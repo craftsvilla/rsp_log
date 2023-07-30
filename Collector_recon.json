@@ -1,0 +1,99 @@
+{
+    "context": {
+        "domain": "nic2004:NTS10",
+        "country": "IND",
+        "city": "*",
+        "action": "collector_recon",
+        "core_version": "1.0.0",
+        "bap_id": "www.craftsvilla.com",
+        "bap_uri": "https://www.craftsvilla.com/ondc/v1/143614/",
+        "bpp_id": "rsp.plotch.ai",
+        "bpp_uri": "https://rsp.plotch.ai/rsp",
+        "transaction_id": "822cdb5c-045f-49ee-b3cd-6de39714878f",
+        "message_id": "97d9a7b5-d969-4969-8dde-6fa721384771",
+        "timestamp": "2023-07-25T10:38:24.694Z",
+        "ttl": "P2D"
+    },
+    "message": {
+        "orderbook": {
+            "orders": [
+                {
+                    "id": "20ef7305-3216-478c-a7f6-426b26a7fb58",
+                    "invoice_no": "529465",
+                    "collector_app_id": "www.craftsvilla.com",
+                    "receiver_app_id": "ondc.ideamasters.store",
+                    "receiver_app_uri": "https://ondc.ideamasters.store/ondc/v1/166476/bpp",
+                    "state": "Completed",
+                    "provider": {
+                        "name": {
+                            "code": "169355",
+                            "name": "VISIT ART"
+                        },
+                        "address": "SURAT"
+                    },
+                    "payment": {
+                        "params": {
+                            "transaction_id": "order_***GC8JvLmRe",
+                            "transaction_status": "PAID",
+                            "amount": "205.00",
+                            "currency": "INR"
+                        },
+                        "type": "ON-ORDER",
+                        "status": "PAID",
+                        "collected_by": "BAP",
+                        "@ondc/org/collected_by_status": "Assert",
+                        "@ondc/org/buyer_app_finder_fee_type": "percent",
+                        "@ondc/org/buyer_app_finder_fee_amount": "3",
+                        "@ondc/org/withholding_amount": null,
+                        "@ondc/org/withholding_amount_status": "Assert",
+                        "@ondc/org/return_window": null,
+                        "@ondc/org/return_window_status": "Assert",
+                        "@ondc/org/settlement_basis": null,
+                        "@ondc/org/settlement_basis_status": "Assert",
+                        "@ondc/org/settlement_window": null,
+                        "@ondc/org/settlement_window_status": "Assert",
+                        "@ondc/org/settlement_details": [
+                            {
+                                "settlement_counterparty": "seller-app",
+                                "settlement_phase": "sale-amount",
+                                "settlement_amount": 197.74,
+                                "settlement_type": "neft",
+                                "settlement_bank_account_no": "*********80",
+                                "settlement_ifsc_code": "*********01",
+                                "bank_name": "IDFC Bank",
+                                "branch_name": "Barakhamba Road Branch",
+                                "beneficiary_name": "IDEAM***S SERVICES PRIVATE LIMITED",
+                                "beneficiary_address": "SE****D F***R, SHOP ***31, S**** ******,SURAT,GUJARAT,395010",
+                                "settlement_status": "NOT-PAID",
+                                "settlement_reference": "20ef7305-3216-478c-a7f6-426b26a7fb58",
+                                "settlement_timestamp": "2023-07-25T10:38:24.694Z"
+                            }
+                        ]
+                    },
+                    "withholding_tax_gst": {
+                        "currency": "INR",
+                        "value": "0.00"
+                    },
+                    "withholding_tax_tds": {
+                        "currency": "INR",
+                        "value": "0.00"
+                    },
+                    "deduction_by_collector": {
+                        "currency": "INR",
+                        "value": "7.26"
+                    },
+                    "payerdetails": {
+                        "payer_name": "Craf****** Handicrafts Private Limited ONDC",
+                        "payer_address": "Bandra East (BKC Naman Chambers Branch)",
+                        "payer_account_no": "*********13",
+                        "payer_bank_code": "*********01",
+                        "payer_virtual_payment_address": ""
+                    },
+                    "settlement_reason_code": "01",
+                    "created_at": "2023-07-25T10:38:24.694Z",
+                    "updated_at": "2023-07-25T10:38:24.694Z"
+                }
+            ]
+        }
+    }
+}

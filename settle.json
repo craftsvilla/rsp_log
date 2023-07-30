@@ -1,0 +1,48 @@
+{
+    "context": {
+        "domain": "nic2004:65191",
+        "country": "IND",
+        "city": "*",
+        "action": "settle",
+        "core_version": "1.0.0",
+        "bap_id": "rsp.plotch.ai",
+        "bap_uri": "https://rsp.plotch.ai/rsp",
+        "bpp_id": "sa_nocs.nbbl.com",
+        "bpp_uri": "https://ondcnbbl.npci.org.in/nocs",
+        "transaction_id": "80ef37f8-2941-4a9f-b3f9-6d69a38c6567",
+        "message_id": "899d6be3-6860-4ec0-a522-af71bfe12354",
+        "timestamp": "2023-07-25T10:35:42.228Z",
+        "ttl": "P2D"
+    },
+    "message": {
+        "settlement": {
+            "settlements": [
+                {
+                    "collector_app_id": "www.craftsvilla.com",
+                    "receiver_app_id": "ondc.ideamasters.store",
+                    "payer_name": "Craf****a Handicrafts Private Limited ONDC",
+                    "payer_address": "Bandra East (BKC Naman Chambers Branch)",
+                    "payer_account_no": "********13",
+                    "payer_bank_code": "*********01",
+                    "curr_type": "INR",
+                    "amount": {
+                        "currency": "INR",
+                        "value": 197.74
+                    },
+                    "timestamp": "2023-07-25T21:10:35.428Z",
+                    "payee_name": "IDEAM***S SERVICES PRIVATE LIMITED",
+                    "payee_address": "SE****D F***R, SHOP ***31, S**** ******,SURAT,GUJARAT,395010",
+                    "payee_account_no": "********80",
+                    "payee_bank_code": "********01",
+                    "payment_type": "01",
+                    "purpose_code": "01",
+                    "payee_account_type": "02",
+                    "settlement_id": "ed0ba6bf-db50-40aa-b559-5703735c96eb",
+                    "remarks": {
+                        "name": "Seller Payload"
+                    }
+                }
+            ]
+        }
+    }
+}

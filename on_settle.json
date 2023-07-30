@@ -1,0 +1,33 @@
+{
+    "context": {
+        "domain": "nic2004:65191",
+        "country": "IND",
+        "city": "*",
+        "action": "on_settle",
+        "core_version": "1.0.0",
+        "bap_id": "rsp.plotch.ai",
+        "bap_uri": "https://rsp.plotch.ai/rsp",
+        "bpp_id": "sa_nocs.nbbl.com",
+        "bpp_uri": "https://ondcnbbl.npci.org.in/nocs",
+        "transaction_id": "80ef37f8-2941-4a9f-b3f9-6d69a38c6567",
+        "message_id": "899d6be3-6860-4ec0-a522-af71bfe12354",
+        "timestamp": "2023-07-28T15:04:00.204Z",
+        "ttl": "P2D"
+    },
+    "message": {
+        "settlement": {
+            "settlements": [
+                {
+                    "curr_type": "INR",
+                    "amount": {
+                        "currency": "INR",
+                        "value": "197.74"
+                    },
+                    "settlement_id": "ed0ba6bf-db50-40aa-b559-5703735c96eb",
+                    "settlement_reference_no": "202307280037742C",
+                    "state": "01"
+                }
+            ]
+        }
+    }
+}
